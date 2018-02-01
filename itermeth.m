@@ -38,7 +38,7 @@ x = x0;
 r = b - A * x0;
 r0 = norm(r);
 err = norm (r);
-while err > tol & iter < nmax
+while err > tol && iter < nmax
   iter = iter + 1;
   z = L\r;  z = U\z;
   if beta == 0

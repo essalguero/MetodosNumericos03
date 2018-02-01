@@ -16,6 +16,5 @@ tol = 10 ^ (-8)
 
 for i = 1:iter
     [x, iteraciones] = itermeth(A, b, x0, i, tol, 'J')
-    
 end
 
